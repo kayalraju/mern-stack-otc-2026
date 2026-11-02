@@ -4,15 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        /* *{
+            margin: 0;
+            padding: 0;
+            background-color: rgb(222, 213, 31);
+        } */
+        .container{
+            background-color: rgb(18, 149, 193);
+            width: 300px;
+            height: 300px;
+            border: 5px solid rgb(227, 13, 13);
+            border-radius: 10px;
+            margin: 10px;
+            padding: 10px;
+
+        }
+        .hello{
+            color: rgb(238, 234, 230);
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #container-fluid{
+            background-color: rgb(18, 149, 193);
+            width: 300px;
+            height: 300px;
+            border: 5px solid rgb(227, 13, 13);
+            border-radius: 10px;
+            margin: 10px;
+            padding: 10px;
+        }
+        /* #hello2{
+            color: rgb(22, 12, 3);
+            font-size: 20px;
+            text-align: center;
+        } */
+        form{
+            margin: 10px;
+            padding: 10px;
+            background-color: rgb(18, 149, 193);
+        }
+    </style>
 </head>
 <body>
-    <h1>This is my home page</h1>
-    <h1>hello welcome to webskiters</h1>
-    <h6>hello welcome to webskiters</h6>
+ 
+    <div class="container hello">
+        <p>Cascading Style Sheets (CSS) is a rule-based stylesheet language used to specify the presentation, layout, and visual formatting of documents written in a markup language like HTML or XML. Along with HTML (which provides the structure) and JavaScript (which provides behavior and logic), CSS is one of the three cornerstone technologies of the World Wide Web</p>
+       
+    </div>
 
-    <a href="about.html">About</a>
-
-    <hr>
+    <div id="container-fluid">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quaerat laboriosam, suscipit labore ipsa maxime temporibus necessitatibus. Officiis accusantium itaque delectus aliquid praesentium, dicta soluta. Aliquam vitae magni optio asperiores.</p>
+    </div>
 
     <form action="about.html" method="post" enctype="multipart/form-data">
         Name: <input type="text" placeholder="entre your name" name="name"> <br><br>
