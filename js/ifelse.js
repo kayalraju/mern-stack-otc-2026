@@ -13,12 +13,12 @@
 // }
 
 //ifelse
-const age=18;
-if(age>=18){
-    console.log("you can drive");
-}else{
-    console.log("you can not drive");
-}
+// const age=18;
+// if(age>=18){
+//     console.log("you can drive");
+// }else{
+//     console.log("you can not drive");
+// }
 
 
 //odd or even
@@ -44,13 +44,22 @@ if(age>=18){
 // }
 
 
-const student="pritam"
+// const student="pritam"
 
-if(student=="pritam"){
-    console.log("you are pritam");
-}else if(student=="raju"){
-    console.log("you are raju");
-}else{
-    console.log("you are not pritam or raju");
+// if(student=="pritam"){
+//     console.log("you are pritam");
+// }else if(student=="raju"){
+//     console.log("you are raju");
+// }else{
+//     console.log("you are not pritam or raju");
 
+// }
+
+
+let year = 2024;
+
+if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
+    console.log("Leap Year");
+} else {
+    console.log("Not Leap Year");
 }
